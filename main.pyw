@@ -16,7 +16,7 @@ def main():
 	X = ctypes.windll.user32.GetSystemMetrics(0) # Get monitor width
 	Y = ctypes.windll.user32.GetSystemMetrics(1) # Get monitor height
 
-	display_surface = pygame.display.set_mode((X, Y ))
+	display_surface = pygame.display.set_mode((X, Y))
 	  
 	image = pygame.image.load(f'{os.getcwd()}\\monitor-1_glitch.png')
 
